@@ -1,3 +1,4 @@
+
 <p align="center">
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
@@ -5,10 +6,6 @@
 <h1>osTicket - Ticket Lifecycle: Intake Through Resolution</h1>
 This tutorial outlines the lifecycle of a ticket from intake to resolution within the open-source help desk ticketing system osTicket.<br />
 
-
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How to create, work, and resolves tickets within osTicket](https://www.youtube.com)
 
 <h2>Environments and Technologies Used</h2>
 
@@ -27,28 +24,70 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 - Working the Issue
 - Resolution
 
-<h2>Lifecycle Stages</h2>
+<h2>Ticket Scenarios</h2>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+<h3>Scenario 1: Entire Mobile/Online Banking System is Down</h3>
+<ul>
+    <img src="https://github.com/user-attachments/assets/6e6ba059-a7c9-4e2c-abb0-733100423bbb">
+    <li>Acting as an end-user, created the following ticket: <em>Entire mobile/online banking system is down</em>.</li>
+    <li>Acting as Help Desk Agent (john), observe the ticket properties:
+        <ul>
+            <li>Priority</li>
+            <li>Department</li>
+            <li>SLA</li>
+            <li>Assigned To</li>
+        </ul>
+    </li>
+  <img src="https://github.com/user-attachments/assets/65666404-ac5a-4d83-b150-9252325d0c0a">
+    <li>Set the following properties:
+        <ul>
+            <li><strong>SLA:</strong> Sev-A (1 hour, 24/7)</li>
+            <li><strong>Department:</strong> Online Banking Department</li>
+        </ul>
+    </li>
+    <li>Work the ticket to completion as <strong>jane</strong>.</li>
+  <img src="https://github.com/user-attachments/assets/a85980ea-74c1-479c-be40-ae50256279a3">
+  <img src="https://github.com/user-attachments/assets/468854b9-9bc7-493b-a4f5-1fa593926872"> 
+</ul>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+<h3>Scenario 2: Accounting Department Needs Adobe Upgrade, Broken</h3>
+<ul>
+    <li>Created the following ticket as an end-user: <em>Accounting department needs Adobe upgrade, broken</em>.</li>
+    <li>As Help Desk Agent (john), observe the ticket properties:
+        <ul>
+            <li>Priority</li>
+            <li>Department</li>
+            <li>SLA</li>
+            <li>Assigned To</li>
+        </ul>
+    </li>
+    <li>Set the following properties:
+        <ul>
+            <li><strong>SLA:</strong> Sev-B (4 hours, 24/7)</li>
+            <li><strong>Department:</strong> Support</li>
+        </ul>
+    </li>
+    <li>Work the ticket to completion as <strong>john</strong>.</li>
+</ul>
+<img src="https://github.com/user-attachments/assets/28872450-69c0-4b11-82b9-3ea38a6241c6">
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+<h3>Scenario 3: CFO’s Laptop Will No Longer Turn On</h3>
+<ul>
+    <li>Acting as an end-user, create the following ticket: <em>CFO’s laptop will no longer turn on</em>.</li>
+    <img src="https://github.com/user-attachments/assets/d6248e68-f8d4-4bf8-b709-c101600e0df7">
+    <li>As Help Desk Agent (john), observe the ticket properties:
+        <ul>
+            <li>Priority</li>
+            <li>Department</li>
+            <li>SLA</li>
+            <li>Assigned To</li>
+        </ul>
+    </li>
+    <li>Set the following properties:
+        <ul>
+            <li><strong>SLA:</strong> Sev-B (4 hours, 24/7)</li>
+            <li><strong>Department:</strong> Support</li>
+        </ul>
+    </li>
+    <li>Work the ticket to completion as <strong>john</strong>.</li>
+</ul>
